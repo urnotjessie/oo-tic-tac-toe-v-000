@@ -60,3 +60,9 @@ class TicTacToe
                 count += 1
             end
         end
+        if count % 2 == 0
+            return "O"
+        else
+            return "X"
+        end
+    end
