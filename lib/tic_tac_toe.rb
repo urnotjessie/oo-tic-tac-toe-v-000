@@ -24,3 +24,4 @@ class TicTacToe
     end
 
     def move(index, user_token)
+        @board[index] = user_token
