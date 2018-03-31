@@ -66,3 +66,7 @@ class TicTacToe
             return "X"
         end
     end
+
+    def turn
+        "Input number between 1-9: "
+        user_input = gets.strip
