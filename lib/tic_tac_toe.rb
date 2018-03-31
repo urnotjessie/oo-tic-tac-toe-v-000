@@ -70,7 +70,7 @@ class TicTacToe
         "Input number between 1-9: "
         user_input = gets.strip
         index = input_to_index(index)
-        if valid_move(index)
+        if valid_move?(index)
             user_token = self.current_player
             move(index, user_token)
             self.display_board
