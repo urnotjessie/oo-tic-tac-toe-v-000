@@ -27,4 +27,5 @@ class TicTacToe
         @board[index] = user_token
     end
 
-    def position_taken?
+    def position_taken?(index)
+        if @board[]
