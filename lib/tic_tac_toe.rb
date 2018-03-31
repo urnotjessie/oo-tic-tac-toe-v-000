@@ -54,12 +54,7 @@ class TicTacToe
     end
 
     def current_player
-        count = 0
-        @board.each do |element|
-            if element == "X" || element == "O"
-                count += 1
-            end
-        end
+        count = @board.turn_count
         if count % 2 == 0
             return "O"
         else
@@ -70,3 +65,4 @@ class TicTacToe
     def turn
         "Input number between 1-9: "
         user_input = gets.strip
+        
