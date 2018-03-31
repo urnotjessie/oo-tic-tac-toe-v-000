@@ -58,7 +58,7 @@ class TicTacToe
     end
 
     def current_player
-        count = @board.turn_count
+        count = turn_count
         if count % 2 == 0
             return "O"
         else
