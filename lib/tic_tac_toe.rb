@@ -1,7 +1,7 @@
 class TicTacToe
 
-    def initialize([" ", " ", " ", " ", " ", " ", " ", " ", " "])
-        @board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+    def initialize(board=[" ", " ", " ", " ", " ", " ", " ", " ", " "])
+        @board = board
     end
 
     WIN_COMBINATIONS = [
