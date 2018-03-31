@@ -71,7 +71,7 @@ class TicTacToe
         user_input = gets.strip
         index = input_to_index(index)
         if valid_move(index)
-            user_token = @board.current_player
+            user_token = self.current_player
             move(index, user_token)
             @board.display_board
         else
