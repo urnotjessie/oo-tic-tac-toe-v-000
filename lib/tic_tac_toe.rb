@@ -66,4 +66,4 @@ class TicTacToe
         "Input number between 1-9: "
         user_input = gets.strip
         index = input_to_index(index)
-        
+        move(@board)
