@@ -69,4 +69,8 @@ class TicTacToe
         if valid_move(index)
             user_token = @board.current_player
             move(index, user_token)
-            @board. display_board
+            @board.display_board
+        else
+            turn
+        end
+    end
