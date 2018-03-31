@@ -36,7 +36,7 @@ class TicTacToe
     end
 
     def valid_move?(index)
-        if index.between?(0, 8) && @board[index] == " "
+        if index.between?(0, 8) && !position_taken?(index)
             return true
         else
             return false
@@ -66,5 +66,7 @@ class TicTacToe
         "Input number between 1-9: "
         user_input = gets.strip
         index = input_to_index(index)
+        valid_
         user_token = @board.current_player
         move(index, user_token)
+        
