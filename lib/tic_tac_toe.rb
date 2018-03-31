@@ -1,1 +1,1 @@
-class TieTacToe
+class TicTacToe
